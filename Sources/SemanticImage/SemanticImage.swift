@@ -8,7 +8,6 @@ public class SemanticImage {
     public init() {
     }
     
-    @available(iOS 15.0, *)
     lazy var personSegmentationRequest = VNGeneratePersonSegmentationRequest()
     lazy var faceRectangleRequest = VNDetectFaceRectanglesRequest()
     lazy var humanRectanglesRequest:VNDetectHumanRectanglesRequest = {
